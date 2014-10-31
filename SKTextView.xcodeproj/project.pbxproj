@@ -21,6 +21,8 @@
 		564AB1471A0395A6009C011E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564AB0F31A039435009C011E /* UIKit.framework */; };
 		564AB14F1A0395A6009C011E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564AB14D1A0395A6009C011E /* InfoPlist.strings */; };
 		564AB1511A0395A6009C011E /* SKTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564AB1501A0395A6009C011E /* SKTextViewDemoTests.m */; };
+		564AB15B1A039768009C011E /* SKTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 564AB15A1A039768009C011E /* SKTextAttachment.m */; };
+		564AB15E1A0397E5009C011E /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564AB15D1A0397E5009C011E /* SKTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		564AB14C1A0395A6009C011E /* SKTextViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKTextViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		564AB14E1A0395A6009C011E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		564AB1501A0395A6009C011E /* SKTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTextViewDemoTests.m; sourceTree = "<group>"; };
+		564AB1591A039768009C011E /* SKTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextAttachment.h; sourceTree = "<group>"; };
+		564AB15A1A039768009C011E /* SKTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextAttachment.m; sourceTree = "<group>"; };
+		564AB15C1A0397E5009C011E /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
+		564AB15D1A0397E5009C011E /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 		564AB1581A039628009C011E /* SKTextView */ = {
 			isa = PBXGroup;
 			children = (
+				564AB1591A039768009C011E /* SKTextAttachment.h */,
+				564AB15A1A039768009C011E /* SKTextAttachment.m */,
+				564AB15C1A0397E5009C011E /* SKTextView.h */,
+				564AB15D1A0397E5009C011E /* SKTextView.m */,
 			);
 			path = SKTextView;
 			sourceTree = "<group>";
@@ -258,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				564AB1371A0395A6009C011E /* SKAppDelegate.m in Sources */,
+				564AB15E1A0397E5009C011E /* SKTextView.m in Sources */,
+				564AB15B1A039768009C011E /* SKTextAttachment.m in Sources */,
 				564AB13D1A0395A6009C011E /* SKViewController.m in Sources */,
 				564AB1331A0395A6009C011E /* main.m in Sources */,
 			);
